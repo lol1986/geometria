@@ -5,6 +5,9 @@ public class Circulo_LOL extends FiguraGeometrica_LOL {
 	
 	public Circulo_LOL(double r, String tipoFigura) {
 		super(tipoFigura);
+		if (r<0) {
+			r=r*-1;
+		}
 		radio = r;
 	}
 
