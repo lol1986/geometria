@@ -1,4 +1,3 @@
-
 public class Rectangulo extends FiguraGeometrica {
 	private double l1;
 	private double l2;
